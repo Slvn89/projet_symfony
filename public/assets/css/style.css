@@ -90,7 +90,7 @@ h1{
 .Projects img {
     display: inline-block;
     width: 23%;
-    border:3px pink solid;
+    padding: 10px;
 }
 .Projects ul{
     display: inline-block;
@@ -100,9 +100,9 @@ h1{
 .Projects li {
     position: absolute;
     display: inline-block;
+    padding: 10px;
     background-color: rgb(0, 0, 0);
     color: white;
-    border:3px red solid;
     
     
 }
