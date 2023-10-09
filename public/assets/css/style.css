@@ -1,0 +1,189 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url("font/SEGOEUI.TTF");
+    /* margin-left: 10px; */
+    padding: 0;
+}
+
+
+.menu {
+    display: inline-block;
+    width: 100%;
+
+}
+.logo{
+    border:solid 3px;
+    background-color: grey;
+}
+
+.menu ul {
+    font-weight: bolder;
+    display: inline-block;
+    /* left: 60%;
+    width: 30%; */
+    
+   
+}
+
+#BR {
+    margin-right: 39%;
+    position: relative;
+}
+
+.menu li {
+    font-weight: bold;
+    display: inline-block;
+    right: 50p;
+    padding-left: 2em;
+}
+
+.tete {
+    position: relative;
+}
+
+.titre {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-weight: bolder;
+    font-size: 2em;
+    
+    color: white;
+
+}
+
+.head img {
+    z-index: 1;
+}
+
+#BR1 {
+    border: solid 1px black;
+    background: grey;
+    opacity: 50%;
+    text-align: center;
+    color: white;
+    margin-right: 2vh;
+
+}
+
+.Projects {
+    position: relative;
+    border:3px orange solid;
+}
+
+.Projects img {
+    display: inline-block;
+    width: 23%;
+    border:3px pink solid;
+}
+.Projects ul{
+    display: inline-block;
+    width:100%;
+}
+
+.Projects li {
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border:3px red solid;
+    
+    
+}
+
+.About {
+    position: relative;
+    display: inline-block;
+}
+
+.About img {
+    width: 100%;
+    display: inline-block;
+}
+
+.About button {
+    display: block;
+    border: none;
+    width: 100%;
+
+}
+
+.About h2 {
+    position: relative;
+    font-weight: bold;
+
+
+}
+
+.About h3 {
+    position: relative;
+    font-style: italic;
+    font-weight: bold;
+    color: gray;
+
+}
+
+.About p {
+    position: relative;
+    display: block;
+    width: 90%;
+
+}
+.boss1,
+.boss2,
+.boss3,
+.boss4 {
+    display: inline-block;
+    position: relative;
+    width: 23%;
+    
+}
+.form,
+textarea,
+input {
+    width: 100%;
+    border-color: grey;
+    color: grey;
+    text-align: justify;
+    
+    margin-top: 10px;
+    padding-bottom: 5px;
+    margin-left: -0.5em;
+}.form 
+textarea{
+    padding-top: 1em ;
+}
+
+.form 
+button {
+    border: none;
+    background-color: black;
+    margin-left: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+   
+}
+
+
+.form a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+.map {
+    width: 98%;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: small;
+    text-align: center;
+    height:7em;
+    padding: 3em;
+    margin: 0;
+}
