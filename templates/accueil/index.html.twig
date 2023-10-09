@@ -4,4 +4,132 @@
 
 {% block body %}
 
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="tete">
+            <p class="titre"><span id="BR1">BR </span id="archi1">Architects<span></p>
+            <img width="100%" height="400px" src="img/architect.jpg">
+        </div>
+    </header>
+
+    <section>
+        <div class="Projects">
+            
+            <h1>Projects</h1>
+            <ul>
+            <li>Summer house</li>
+            <img src="../public/assets/img/house2.jpg">
+            <li>Brick house</li>
+            <img src="../../public/assets/img/house3.jpg">
+            <li>Renovated</li>
+            <img src="img/house4.jpg">
+            <li>superb</li>
+            <img src="img/house5.jpg">
+            <br>
+            <li>Summer house</li>
+            <img src="img/house4.jpg">
+            <li>Brick house</li>
+            <img src="img/house2.jpg">
+            <li>Renovated</li>
+            <img src="img/house5.jpg">
+            <li>superb</li>
+            <img src="img/house3.jpg">
+        </ul>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="About">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, praesentium. Quam mollitia voluptas
+                ducimus consequatur, maxime aspernatur commodi nisi sed voluptate reprehenderit fugiat nemo enim culpa
+                optio natus nulla fuga.</p>
+
+            <div class="boss1">
+                <img src="img/team1.jpg">
+                <h2>Jane</h2>
+                <h3>CEO and founder</h3>
+                <p>nice girl who is awesome</p>
+                <button><a href="http://www.google.fr">Contact</a></button>
+            </div>
+            <div class="boss2">
+                <img src="img/team2.jpg">
+                <h2>John</h2>
+                <h3>CEO and founder</h3>
+                <p>nice guy who is awesome</p>
+                <button><a href="http://www.google.fr">Contact</a></button>
+            </div>
+            <div class="boss3">
+                <img src="img/team3.jpg">
+                <h2>Mark</h2>
+                <h3>CEO and founder</h3>
+                <p>nice guy who is awesome</p>
+                <button><a href="http://www.google.fr">Contact</a></button>
+            </div>
+            <div class="boss4">
+                <img src="img/team4.jpg">
+                <h2>Dan</h2>
+                <h3>CEO and founder</h3>
+                <p>nice guy who is awesome</p>
+                <button><a href="http://www.google.fr">Contact</a></button>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="Contact"></div>
+        <h1>Contact</h1>
+        <p>lets get in touch and talk about your next project</p>
+        <form class="form" action="/ma-page-de-traitement" method="post">
+            <div>
+                <label for="name"></label>
+                <input placeholder="Name" type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail"></label>
+                <input placeholder="Email" type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="Subject"></label>
+                <textarea placeholder="Subject" id="Subject" name="subject"></textarea>
+            </div>
+            <div>
+                <label for="Comment"></label>
+                <textarea placeholder="Comment" id="Subject" name="subject"></textarea>
+            </div>
+            <button><a href="http://www.google.fr">Send message</a></button>
+        </form>
+        <img class="map" src="img/map.jpg">
+
+    </section>
+
+
+
+    <footerl>
+        <div class="footer">
+            <h1>Powered by w3.css</h1>
+        </div>
+    </footerl>
+
+
+
+</body>
+
+</html>
+
 {% endblock %}
