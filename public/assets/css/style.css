@@ -6,6 +6,17 @@
 }
 
 
+nav{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
+
+
 .menu {
     display: inline-block;
     width: 100%;
@@ -43,7 +54,7 @@ ul{
 .menu li {
     font-weight: bold;
     display: inline-block;
-    right: 50p;
+    right: 50px;
     padding-left: 2em;
 }
 
