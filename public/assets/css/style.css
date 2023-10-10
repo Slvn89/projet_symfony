@@ -9,8 +9,15 @@
 .menu {
     display: inline-block;
     width: 100%;
-
+    background-color: white;
 }
+
+.inp{
+    position: relative;
+    margin-left: 2%;
+    width: 95%;
+}
+
 .logo{
     border:solid 3px;
     background-color: grey;
@@ -21,8 +28,11 @@
     display: inline-block;
     /* left: 60%;
     width: 30%; */
-    
    
+}
+
+ul{
+    background-color: white;
 }
 
 #BR {
@@ -56,6 +66,12 @@
     z-index: 1;
 }
 
+h1{
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+}
+
 #BR1 {
     border: solid 1px black;
     background: grey;
@@ -68,13 +84,13 @@
 
 .Projects {
     position: relative;
-    border:3px orange solid;
+    background-color: white;
 }
 
 .Projects img {
     display: inline-block;
     width: 23%;
-    border:3px pink solid;
+    padding: 10px;
 }
 .Projects ul{
     display: inline-block;
@@ -84,16 +100,22 @@
 .Projects li {
     position: absolute;
     display: inline-block;
-    background-color: black;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
     color: white;
-    border:3px red solid;
-    
-    
+    margin: 10px;
+}
+
+p{
+    color: black;
+    margin-left: 2%;
 }
 
 .About {
     position: relative;
     display: inline-block;
+    background-color: white;
+    margin-left: 2%;
 }
 
 .About img {
@@ -108,18 +130,29 @@
 
 }
 
+section{
+    background-color: white;
+}
+
+.a{
+    background-color: black;
+}
+
+h2{
+    color: black;
+}
+
 .About h2 {
     position: relative;
     font-weight: bold;
-
-
 }
 
 .About h3 {
     position: relative;
     font-style: italic;
+    font-size: 1.3rem;
     font-weight: bold;
-    color: gray;
+    color: rgb(121, 121, 121);
 
 }
 
@@ -157,12 +190,12 @@ textarea{
 .form 
 button {
     border: none;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin-left: 1em;
 }
 
 a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
    
 }
@@ -174,16 +207,19 @@ a {
     background-color: rgb(255, 255, 255);
 }
 .map {
-    width: 98%;
+    width: 95%;
+    margin-left: 2%;
+    z-index: 10;
 }
 
 
 .footer {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     font-size: small;
     text-align: center;
     height:7em;
     padding: 3em;
+    z-index: 1;
     margin: 0;
 }
