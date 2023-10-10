@@ -5,7 +5,13 @@
     padding: 0;
 }
 
+nav{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
 
+<<<<<<< HEAD
 nav{
     position: relative;
     width: 100%;
@@ -17,6 +23,29 @@ nav{
 
 
 
+=======
+ul{
+    right: 60px;
+    margin-top: 15px;
+    background-color: white;
+
+}
+
+li{
+    position: relative;
+    display: inline;
+    margin-left: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    top: 15px;
+    left: 20px;
+}
+>>>>>>> ab47198d3ce76d153ed4655f4dbecb3bc9ab9b26
 .menu {
     display: inline-block;
     width: 100%;
@@ -42,9 +71,6 @@ nav{
    
 }
 
-ul{
-    background-color: white;
-}
 
 #BR {
     margin-right: 39%;
