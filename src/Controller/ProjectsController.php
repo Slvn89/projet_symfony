@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Repository\ProjectsRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -15,4 +16,15 @@ class ProjectsController extends AbstractController
             'controller_name' => 'ProjectsController',
         ]);
     }
+
+    #[Route('/accueil/index', name: 'afficheProjects')]
+
+    public function afficheservice (ProjectsRepository $ProjectsRepository):Response
+    {
+        $service = $ProjectsRepository->findAll();
+        //dd($prods);
+        return $this->render('accueil/index.html.twig',["photo" => $service]);
+
+    }
+
 }
